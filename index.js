@@ -13,7 +13,6 @@ weworkItems.shift();
 computerLabItems.push("loaner laptop");
 computerLabItems[2] = "fixed laptop";
 console.log(mprItems.length);
-
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 3rd Floor
@@ -24,6 +23,9 @@ let scoreValues = {
     "O": "Organization",
     "R": "Resilience"
 }
+scoreValues.C = "Consistency";
+scoreValues.O = "Ownership"; 
+scoreValues.E ="Excellence";
 
 let afterSchoolClubs = {
     athletic: [
@@ -55,6 +57,8 @@ let afterSchoolClubs = {
         }     
     ]
 }
+afterSchoolClubs.athletic[0].club = "British Football Club";
+afterSchoolClubs.social[2].location = "Balcony";
 
 
 // Commit and show us to unlock the next floor's instructions
