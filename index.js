@@ -79,9 +79,15 @@ console.log(takeCareOfPet(["chips", "soda", "hotdogs"] , 12));
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 5th Floor
+function message(sentence){
+let array =[];
+for(i = 0; i < 4; i++){
+array.push(sentence);
+}
+return "Open Sesame";
+};
 
-
-
+console.log(message("hello"));
 
 
 // Commit and show us to unlock the next floor's instructions
